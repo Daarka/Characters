@@ -1,0 +1,36 @@
+/* set the sidebar width */
+::-webkit-scrollbar { width: .75em;}
+
+/* set the sidebar track color */
+::-webkit-scrollbar-track { background: #ffffff00; }
+
+/* set the sidebar button colors */
+::-webkit-scrollbar-thumb {
+background: #4C484B;
+border: 1px solid #454144; }
+
+/*--------------------------------------*/
+
+:root {
+    --input-color: #b7b2a6;
+    --input-background-color: #322f31;
+    --input-border-radius: 0.25rem;
+    --input-border-color: hsla(0, 0%, 100%, .15);
+    --input-border-width: 1px;
+    --color-primary: #5ab5d1;
+    --color-secondary: #79eded;
+    --color-info: #79eded;
+    --color-success: #83d39a;
+    --color-warning: #cc828a;
+    --color-danger: #cc828a;
+    --color-light: #F3F3EA;
+    --color-dark: #474243;
+    --color-background: #322f31;
+    --text-color: #fcfbf6;
+    --btn-color-primary: #fff;
+    --btn-color-secondary: #fff;
+    --btn-color-info: #fff;
+    --btn-color-success: #fff;
+    --btn-color-warning: #fff;
+    --btn-color-danger: #fff
+}
