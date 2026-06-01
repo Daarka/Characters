@@ -401,13 +401,13 @@ blockquote {
 }
 
 a {
-    color: #008cba;
+    color: #C9B8B0;
     text-decoration: none
 }
 
 a:focus,
 a:hover {
-    color: #00526e;
+    color: #E8E1DD;
     text-decoration: underline
 }
 
@@ -649,7 +649,7 @@ mark {
 }
 
 .blockquote {
-    border-left: .25rem solid #e9ecef;
+    border-left: .25rem solid #4B494A;
     font-size: 1.125rem;
     margin-bottom: 1rem;
     padding: .5rem 1rem
@@ -667,7 +667,7 @@ mark {
 
 .blockquote-reverse {
     border-left: 0;
-    border-right: .25rem solid #e9ecef;
+    border-right: .25rem solid #4B494A;
     padding-left: 0;
     padding-right: 1rem;
     text-align: right
@@ -688,8 +688,8 @@ mark {
 }
 
 .img-thumbnail {
-    background-color: #fff;
-    border: 1px solid #dee2e6;
+    background-color: #4B494A;
+    border: 1px solid #4B494A;
     border-radius: .25rem;
     padding: .25rem;
     transition: none
@@ -723,9 +723,9 @@ samp {
 }
 
 code {
-    background-color: #f8f9fa;
+    background-color: #474243;
     border-radius: .25rem;
-    color: #d9534f;
+    color: #CEB9A3;
     font-size: 87.5%;
     padding: .2rem .4rem
 }
@@ -737,9 +737,9 @@ a>code {
 }
 
 kbd {
-    background-color: #212529;
+    background-color: #474243;
     border-radius: .2rem;
-    color: #fff;
+    color: #CEB9A3;
     font-size: 87.5%;
     padding: .2rem .4rem
 }
@@ -751,7 +751,7 @@ kbd kbd {
 }
 
 pre {
-    color: #212529;
+    color: #474243;
     display: block;
     font-size: 87.5%;
     margin-bottom: 1rem;
@@ -779,18 +779,18 @@ pre code {
 
 .table td,
 .table th {
-    border-top: 1px solid #dee2e6;
+    border-top: 1px solid #524F51;
     padding: .75rem;
     vertical-align: top
 }
 
 .table thead th {
-    border-bottom: 2px solid #dee2e6;
+    border-bottom: 2px solid #524F51;
     vertical-align: bottom
 }
 
 .table tbody+tbody {
-    border-top: 2px solid #dee2e6
+    border-top: 2px solid #524F51
 }
 
 .table .table {
@@ -805,7 +805,7 @@ pre code {
 .table-bordered,
 .table-bordered td,
 .table-bordered th {
-    border: 1px solid #dee2e6
+    border: 1px solid #524F51
 }
 
 .table-bordered thead td,
@@ -893,7 +893,7 @@ pre code {
 .table-inverse td,
 .table-inverse th,
 .table-inverse thead th {
-    border-color: #fff
+    border-color: #524F51
 }
 
 .table-inverse.table-bordered {
@@ -2655,7 +2655,7 @@ tbody.collapse.show {
 }
 
 .nav-tabs {
-    border-bottom: 1px solid #dee2e6
+    border-bottom: 1px solid #524F51
 }
 
 .nav-tabs .nav-item {
@@ -2670,7 +2670,7 @@ tbody.collapse.show {
 
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
-    border-color: #e9ecef #e9ecef #dee2e6
+    border-color: #524F51 #524F51 #524F51
 }
 
 .nav-tabs .nav-link.disabled {
@@ -2682,7 +2682,7 @@ tbody.collapse.show {
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
     background-color: #fff;
-    border-color: #dee2e6 #dee2e6 #fff;
+    border-color: #524F51 #524F51 #524F51;
     color: #6c757d
 }
 
@@ -8033,12 +8033,12 @@ a.text-dark:hover {
 }
 
 .text-muted {
-    color: #6c757d !important
+    color: #B7B2A6 !important
 }
 
 a.text-muted:focus,
 a.text-muted:hover {
-    color: #494f54 !important
+    color: #C9B8B0 !important
 }
 
 .text-primary {
@@ -8195,8 +8195,8 @@ a.text-gray-dark:hover {
 }
 
 .card {
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, .125);
+    background-color: #322f31;
+    border: 1px solid #524F51;
     border-radius: .25rem;
     display: flex;
     flex-direction: column;
@@ -8241,7 +8241,7 @@ a.text-gray-dark:hover {
 
 .card-header {
     background-color: rgba(0, 0, 0, .03);
-    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    border-bottom: 1px solid #d4c9bc;
     margin-bottom: 0;
     padding: .75rem 1.25rem
 }
@@ -8252,7 +8252,7 @@ a.text-gray-dark:hover {
 
 .card-footer {
     background-color: rgba(0, 0, 0, .03);
-    border-top: 1px solid rgba(0, 0, 0, .125);
+    border-top: 1px solid #d4c9bc;
     padding: .75rem 1.25rem
 }
 
@@ -8272,8 +8272,8 @@ a.text-gray-dark:hover {
 }
 
 .card-primary {
-    background-color: #008cba;
-    border-color: #008cba
+    background-color: #322F31;
+    border-color: #d4c9bc
 }
 
 .card-primary .card-footer,
@@ -10675,7 +10675,7 @@ a.text-gray-dark:hover {
 }
 
 .bg-faded {
-    background-color: #f7f7f7
+    background-color: #3A3639
 }
 
 .jumbotron-hr {
@@ -11586,15 +11586,15 @@ input[type=checkbox].th-checkbox.th-checkbox-large+span:after {
 }
 
 .btn.btn-default {
-    background-color: #f8f9fa;
-    border-color: #e9ecef;
-    color: #212529
+    background-color: #474243;
+    border-color: #5A5354;
+    color: #DED4D6
 }
 
 .btn.btn-default:hover {
-    background-color: #dae0e5;
-    border-color: #c6cdd5;
-    color: #212529
+    background-color: #2D292A;
+    border-color: #3A3636;
+    color: #DED4D6
 }
 
 .btn.btn-default.focus,
